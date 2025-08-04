@@ -42,8 +42,12 @@ The user is prompted through a text-based menu to choose an operation, input two
 
 1. Save the code to a file named ConsoleCalci.java.
 
-2. Open your terminal and navigate to the directory where the file is saved.
+2. Open your terminal and navigate to the directory
+ where the file is saved.
 
 3. Compile the Java file:
    ```bash
    javac ConsoleCalculator.java 
+
+
+<img width="1920" height="1024" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/564fe02f-c153-4dac-b1c0-82027ac26251" />
