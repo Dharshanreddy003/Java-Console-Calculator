@@ -41,25 +41,29 @@ class ConsoleCalculator
             		System.out.print("Enter second number: ");
             		double num2 = scanner.nextDouble();
 
-            		System.out.print("Choose an operation (+, -, *, /): ");
+            		System.out.println("Choose an operation : ");
+			System.out.println("1. Addition : ");
+			System.out.println("2. Sbtraction : ");
+			System.out.println("3. Multiplication : ");
+			System.out.println("4. Division : ");
             		char op = scanner.next().charAt(0);
 
             		double result;
             		switch (op) 
 			{
-                		case '+':
+                		case '1':
                     			result = add(num1, num2);
                     			System.out.println("Result: " + result);
                     			break;
-                		case '-':
+                		case '2':
                     			result = subtract(num1, num2);
                     			System.out.println("Result: " + result);
                     			break;
-                		case '*':
+                		case '3':
                     			result = multiply(num1, num2);
                     			System.out.println("Result: " + result);
                     			break;
-                		case '/':
+                		case '4':
                     			result = divide(num1, num2);
                     			if (!Double.isNaN(result)) 
 					{
@@ -77,8 +81,6 @@ class ConsoleCalculator
                 		continueCalc = false;
             		}
         	}
-
-        	System.out.println("Thank you for using the calculator. Goodbye!");
         	scanner.close();
     	}
 }
